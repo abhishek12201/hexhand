@@ -1,0 +1,3 @@
+# AI Usage
+
+- P0: Added the Pages workflow, project-site Vite base, Vitest smoke test, and planned folder placeholders. Verified Node 24.22.2, npm test, typecheck, local and Pages-mode builds, and local HTTPS (200). The forwarded HTTPS URL returned 302 to authentication. The managed IWER browser could not launch because the Codespace lacks `libatk-1.0.so.0`; the Pages URL returned 404 because the workflow has not been pushed.
