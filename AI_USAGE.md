@@ -1,3 +1,4 @@
 # AI Usage
 
 - P0: Added the Pages workflow, project-site Vite base, Vitest smoke test, and planned folder placeholders. Verified Node 24.22.2, npm test, typecheck, local and Pages-mode builds, and local HTTPS (200). The forwarded HTTPS URL returned 302 to authentication. The managed IWER browser could not launch because the Codespace lacks `libatk-1.0.so.0`; the Pages URL returned 404 because the workflow has not been pushed.
+- P1: Recorded the full `app/public/` and starter-scene asset inventory with byte sizes and provenance notes in `DECISIONS.md`, including the enabled locomotion setting. Added source-backed IWSDK/WebXR/IWER API notes and a live joint-sphere system with `?dump-joints=1` JSON output. Verified typecheck, npm test, production build, and HTTP 200 for the local app and joint module. Hand rendering and screenshot remain for the human's local-browser test because managed Chromium is unavailable in this Codespace.
